@@ -1,0 +1,9 @@
+# app/data/exemple_obligations.xlsx (Contenu simulé)
+# Ce fichier sera un fichier Excel réel dans une implémentation complète,
+# mais pour l'instant, nous créons un fichier texte pour simuler sa présence.
+# Le contenu réel sera généré par le code dans utils/common.py.
+
+ISIN,Nominal,Taux_Coupon,Frequence_Coupon,Maturite_Annees,Prix_Actuel
+FR0010000001,1000,0.03,1,5,1015.50
+US9128285H31,1000,0.05,2,10,980.00
+DE0001102381,1000,0.015,1,3,1005.25

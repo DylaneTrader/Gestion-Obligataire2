@@ -1,0 +1,44 @@
+/* app/assets/style.css */
+
+/* Styles généraux pour l'application Streamlit */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Conteneur principal */
+.stApp {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Titres de section */
+h1, h2, h3 {
+    color: #0e1117;
+}
+
+/* Boutons primaires */
+.stButton>button {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+}
+
+/* Cartes d'information */
+.stAlert {
+    border-left: 5px solid #2196F3; /* Bleu */
+    border-radius: 5px;
+}
+
+/* Sidebar */
+.css-1d391kg { /* sélecteur pour la sidebar */
+    background-color: #f0f2f6;
+}
